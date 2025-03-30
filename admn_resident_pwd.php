@@ -1,5 +1,5 @@
 <?php 
-if(!isset($_SESSION['admin'])){header('Location: index.php');}
+  
 
     include('classes/staff.class.php');
     include('classes/resident.class.php');

@@ -1,6 +1,6 @@
 <?php 
     error_reporting(E_ALL ^ E_WARNING);
-    if(!isset($_SESSION['admin'])){header('Location: index.php');}
+      
     require('classes/resident.class.php');
     ini_set('display_errors',0);
     $userdetails = $residentbmis->get_userdata();

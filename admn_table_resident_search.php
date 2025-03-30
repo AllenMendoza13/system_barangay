@@ -1,5 +1,5 @@
 <?php
-if(!isset($_SESSION['admin'])){header('Location: index.php');}
+  
 
 // require the database connection
 require 'classes/conn.php';

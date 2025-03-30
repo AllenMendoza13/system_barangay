@@ -1,6 +1,6 @@
 <?php
 	// require the database connection
-    if(!isset($_SESSION['admin'])){header('Location: index.php');}
+      
     require 'classes/conn.php';
 	if(isset($_POST['search_bspermit'])){
 		$keyword = $_POST['keyword'];

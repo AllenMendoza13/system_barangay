@@ -2,7 +2,7 @@
     
     error_reporting(E_ALL ^ E_WARNING);
     ini_set('display_errors',0);
-    if(!isset($_SESSION['admin'])){header('Location: index.php');}
+      
     require('classes/resident.class.php');
     $userdetails = $bmis->get_userdata();
     $bmis->validate_admin();

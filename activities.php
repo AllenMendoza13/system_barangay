@@ -1,9 +1,5 @@
 <?php
     session_start();
-    if(!$_SESSION['id_admin']){
-        header('Location: index.php');
-        exit(0);
-    }
 
     ini_set('display_errors', 0);
     error_reporting(E_ALL ^ E_WARNING);

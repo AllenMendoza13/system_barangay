@@ -1,7 +1,7 @@
 <?php 
     ini_set('display_errors', 1);
     error_reporting(E_ALL ^ E_WARNING);
-    if(!isset($_SESSION['admin'])){header('Location: index.php');}
+      
     require('classes/resident.class.php');
 
     //$view = $residentbmis->view_single_resident($email);

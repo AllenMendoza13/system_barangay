@@ -1,5 +1,5 @@
 <?php
-    if(!isset($_SESSION['admin'])){header('Location: index.php');}
+      
     require('classes/main.class.php');
     $bmis->create_admin();
     $userdetails = $bmis->get_userdata();

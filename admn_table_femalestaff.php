@@ -1,5 +1,5 @@
 <?php
-if(!isset($_SESSION['admin'])){header('Location: index.php');}
+  
    error_reporting(E_ALL ^ E_WARNING);
    ini_set('display_errors',0);
    require('classes/staff.class.php');
